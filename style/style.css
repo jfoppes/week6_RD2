@@ -4,6 +4,9 @@ img {
     display: block;
     margin: 0 auto;
 }
+main {
+    background-color: rgb(255, 210, 202);
+}
 p{
     text-indent: 30px;
     max-width: 90%;
@@ -80,7 +83,7 @@ section {
         justify-content: center;
     }
     body main{
-        background-color: aqua;
+        background-color: rgb(255, 210, 202);
     }
     p {
         max-width: 460px;
@@ -94,7 +97,7 @@ section {
         justify-content: space-around;
     }
     body main{
-        background-color: rgb(193, 127, 255);
+        background-color: rgb(255, 210, 202);
     }
     p{
         max-width: 740px;
