@@ -38,7 +38,7 @@ nav a {
 
 
 /* mobile 320*/
-@media screen and (min-width: 550px) { 
+@media screen and (min-width: 320px) { 
     nav {
         flex-direction: column;
         align-items: center;
@@ -60,7 +60,7 @@ nav a {
 }
 
 /* Tablet 481*/
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 481px) { 
     nav {
         justify-content: center;
     }
@@ -74,7 +74,7 @@ nav a {
 }
 
 /*Desktop 769 */
-@media screen and (min-width: 990px) { 
+@media screen and (min-width: 769px) { 
     nav{
         justify-content: space-around;
     }
