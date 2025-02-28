@@ -38,15 +38,19 @@ nav a {
     text-decoration: none;
     padding: 10px;
 }
+nav a:hover{
+    background-color: rgb(170, 238, 238);
+}
 h1, h2{
     text-align: center;
+    margin-top: 0;
     margin-bottom: 20px;
     font-size: clamp(1.8rem, 5vw, 3rem);
 }
 h3 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: clamp(1.2rem, 3vw, 2.5rem);
+    font-size: clamp(1.2rem, 3vw, 2rem);
 }
 
 
@@ -55,9 +59,32 @@ section {
     max-height: 12000px;
     margin: auto;
 }
+table {
+    width: 100%; 
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: left;
+    overflow-x: auto;
+}
+th, td {
+    border: 1px solid #302020;
+    padding: 10px;
+}
+th{
+    background-color: rgb(193, 161, 155);
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+#contact h3 {
+    text-align: left;
+    font-size: clamp(1.1rem, 2vw, 2rem);
 
-
-
+}
 /* mobile 320 550*/
 @media screen and (min-width: 320px) { 
     nav {
@@ -88,6 +115,9 @@ section {
     p {
         max-width: 460px;
     }
+    table {
+        font-size: 1rem;
+    }
 
 }
 
@@ -101,6 +131,9 @@ section {
     }
     p{
         max-width: 740px;
+    }
+    table {
+        font-size: 1.2rem;
     }
     
 
