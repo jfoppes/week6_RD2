@@ -24,6 +24,19 @@ footer{
     background-color: #c2c2c2;
     padding: 10px;
 }
+footer ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+footer li {
+    list-style-type: none;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
 nav {
     display: flex;
     justify-content: center;
